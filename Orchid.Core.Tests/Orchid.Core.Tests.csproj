@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Orchid.Core\Orchid.Core.csproj" />
+    <ProjectReference Include="..\Orchid.Core\Orchid.Engine.Core.csproj" />
   </ItemGroup>
 
 </Project>
