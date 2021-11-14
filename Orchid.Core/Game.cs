@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OrchidCavalry.ViewModels;
 
 namespace Orchid.Engine.Core
 {
-    internal class Game
+    public abstract class Game
     {
+        public Scenario StartingScenario { get; }
+
+        public IEnumerable<StatSection> StatSections { get; }
     }
 }
